@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image" href="images/javajamlogo.jpg">
+        <link rel="icon" type="icon" href="favicon.ico">
         <title>
             JavaJam Coffee House Jobs
         </title>
@@ -36,13 +36,13 @@
 
                 <form method="post" action="http://webdevbasics.net/scripts/javajam8.php" class="form" id="mySubmit">
 
-                    <label for="myName">Name:</label>
+                    <label for="myName">*Name:</label>
                     <input type="text" id="myName" name="myName" required>
             
-                    <label>E-mail:</label>
-                    <input type="email" >
+                    <label for="myEmail">*E-mail:</label>
+                    <input type="email" id="myEmail" name="myEmail" required="required">
             
-                    <label for="myExperience">Experience:</label>
+                    <label for="myExperience">*Experience:</label>
                     <textarea id="myExperience" name="myExperience" rows="3" cols="25" required></textarea>
             
                     <input type="submit" id="mySubmit" value="Apply Now">
